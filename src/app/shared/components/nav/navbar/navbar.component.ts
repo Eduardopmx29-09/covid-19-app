@@ -18,4 +18,10 @@ export class NavbarComponent implements OnInit {
   toAbout(){
     this._router.navigate(["/about"])
   }
+  toContact(){
+    this._router.navigate(["/contact"])
+  }
+  toCovidInfo(){
+    this._router.navigate(["/covid19"])
+  }
 }
