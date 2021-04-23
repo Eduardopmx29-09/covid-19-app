@@ -1,0 +1,20 @@
+<div class="container mt-3">
+
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th>pais</th>
+                <th>Lastname</th>
+                <th>codigo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let covid of  covidInfo">
+                <td>{{covid.Country}}</td>
+                <td>{{covid.Slug}}</td>
+                <td>{{covid.ISO2}}</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>

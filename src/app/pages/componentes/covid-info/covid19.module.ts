@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { HttpClientModule } from '@angular/common/http';
 import { Covid19RoutingModule } from './covid19-routing.module';
+import { CovidInfoComponent } from './componentes/covid-info.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [CovidInfoComponent],
   imports: [
     CommonModule,
+    HttpClientModule,
     Covid19RoutingModule
   ]
 })
