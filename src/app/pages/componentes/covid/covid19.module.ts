@@ -3,8 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { Covid19RoutingModule } from './covid19-routing.module';
 import { CovidInfoComponent } from './pages-covid/componentes/covid-info/covid-info.component';
-import { PagesModule } from '../../pages.module';
-import { CovidCountryComponent } from './componentes/covid-country/covid-country.component';
+import { CovidCountryComponent } from './pages-covid/componentes/covid-country/covid-country.component';
 
 
 
