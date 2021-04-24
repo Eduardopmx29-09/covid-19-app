@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { CovidSerService } from '../covid-services/covid-ser.service';
+import { CovidSerService } from '../../covid-services/covid-ser.service';
+
 
 @Component({
   selector: 'app-covid-info',

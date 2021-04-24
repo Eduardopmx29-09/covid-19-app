@@ -5,8 +5,9 @@ import { HomeComponent } from './componentes/home/home.component';
 import { AboutComponent } from './componentes/about/about.component';
 import { ContactComponent } from './componentes/contact/contact.component';
 import { HttpClientModule } from '@angular/common/http';
-import { Covid19Module } from './componentes/covid-info/covid19.module';
+import { Covid19Module } from './componentes/covid/covid19.module';
 import { PagesRoutingModule } from './pages-routing.module';
+
 
 
 @NgModule({
