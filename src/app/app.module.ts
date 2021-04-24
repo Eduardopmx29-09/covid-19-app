@@ -3,22 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './shared/components/nav/navbar/navbar.component';
-import { FooterComponent } from './shared/components/footer/footer.component';
-import { HttpClientModule } from '@angular/common/http';
 import { PagesModule } from './pages/pages.module';
+import { FooterComponent } from './shared/components/footer/footer.component';
+import { NavbarComponent } from './shared/components/nav/navbar/navbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NavbarComponent,
-    FooterComponent,
-
+    AppComponent,NavbarComponent,FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
     PagesModule
   ],
   providers: [],
