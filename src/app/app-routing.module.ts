@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/componentes/home/home.component';
 import { AboutComponent } from './pages/componentes/about/about.component';
 import { ContactComponent } from './pages/componentes/contact/contact.component';
-import { CovidInfoComponent } from './pages/componentes/covid-info/componentes/covid-info.component';
+import { CovidInfoComponent } from './pages/componentes/covid-info/pages-covid/covid-info.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
